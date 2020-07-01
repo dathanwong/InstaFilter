@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE6DD94F24AD00A200C33A00 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6DD94E24AD00A200C33A00 /* ImageSaver.swift */; };
+		EE98071224AA68DC00C76967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE98071124AA68DC00C76967 /* AppDelegate.swift */; };
+		EE98071424AA68DC00C76967 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE98071324AA68DC00C76967 /* SceneDelegate.swift */; };
+		EE98071724AA68DC00C76967 /* Instafilter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE98071524AA68DC00C76967 /* Instafilter.xcdatamodeld */; };
+		EE98071924AA68DC00C76967 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE98071824AA68DC00C76967 /* ContentView.swift */; };
+		EE98071B24AA68E100C76967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE98071A24AA68E100C76967 /* Assets.xcassets */; };
+		EE98071E24AA68E100C76967 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE98071D24AA68E100C76967 /* Preview Assets.xcassets */; };
+		EE98072124AA68E100C76967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE98071F24AA68E100C76967 /* LaunchScreen.storyboard */; };
+		EE98072C24AA68E100C76967 /* InstafilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE98072B24AA68E100C76967 /* InstafilterTests.swift */; };
+		EE98073724AA68E100C76967 /* InstafilterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE98073624AA68E100C76967 /* InstafilterUITests.swift */; };
+		EE98074524AA83CB00C76967 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE98074424AA83CA00C76967 /* ImagePicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE98072824AA68E100C76967 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE98070624AA68DC00C76967 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE98070D24AA68DC00C76967;
+			remoteInfo = Instafilter;
+		};
+		EE98073324AA68E100C76967 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE98070624AA68DC00C76967 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE98070D24AA68DC00C76967;
+			remoteInfo = Instafilter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE6DD94E24AD00A200C33A00 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		EE98070E24AA68DC00C76967 /* Instafilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instafilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE98071124AA68DC00C76967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE98071324AA68DC00C76967 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE98071624AA68DC00C76967 /* Instafilter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Instafilter.xcdatamodel; sourceTree = "<group>"; };
+		EE98071824AA68DC00C76967 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE98071A24AA68E100C76967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE98071D24AA68E100C76967 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE98072024AA68E100C76967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE98072224AA68E100C76967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE98072724AA68E100C76967 /* InstafilterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstafilterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE98072B24AA68E100C76967 /* InstafilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstafilterTests.swift; sourceTree = "<group>"; };
+		EE98072D24AA68E100C76967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE98073224AA68E100C76967 /* InstafilterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstafilterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE98073624AA68E100C76967 /* InstafilterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstafilterUITests.swift; sourceTree = "<group>"; };
+		EE98073824AA68E100C76967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE98074424AA83CA00C76967 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE98070B24AA68DC00C76967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE98072424AA68E100C76967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE98072F24AA68E100C76967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE98070524AA68DC00C76967 = {
+			isa = PBXGroup;
+			children = (
+				EE98071024AA68DC00C76967 /* Instafilter */,
+				EE98072A24AA68E100C76967 /* InstafilterTests */,
+				EE98073524AA68E100C76967 /* InstafilterUITests */,
+				EE98070F24AA68DC00C76967 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE98070F24AA68DC00C76967 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE98070E24AA68DC00C76967 /* Instafilter.app */,
+				EE98072724AA68E100C76967 /* InstafilterTests.xctest */,
+				EE98073224AA68E100C76967 /* InstafilterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE98071024AA68DC00C76967 /* Instafilter */ = {
+			isa = PBXGroup;
+			children = (
+				EE98071124AA68DC00C76967 /* AppDelegate.swift */,
+				EE98071324AA68DC00C76967 /* SceneDelegate.swift */,
+				EE98071824AA68DC00C76967 /* ContentView.swift */,
+				EE98071A24AA68E100C76967 /* Assets.xcassets */,
+				EE98071F24AA68E100C76967 /* LaunchScreen.storyboard */,
+				EE98072224AA68E100C76967 /* Info.plist */,
+				EE98071524AA68DC00C76967 /* Instafilter.xcdatamodeld */,
+				EE98071C24AA68E100C76967 /* Preview Content */,
+				EE98074424AA83CA00C76967 /* ImagePicker.swift */,
+				EE6DD94E24AD00A200C33A00 /* ImageSaver.swift */,
+			);
+			path = Instafilter;
+			sourceTree = "<group>";
+		};
+		EE98071C24AA68E100C76967 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE98071D24AA68E100C76967 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE98072A24AA68E100C76967 /* InstafilterTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE98072B24AA68E100C76967 /* InstafilterTests.swift */,
+				EE98072D24AA68E100C76967 /* Info.plist */,
+			);
+			path = InstafilterTests;
+			sourceTree = "<group>";
+		};
+		EE98073524AA68E100C76967 /* InstafilterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE98073624AA68E100C76967 /* InstafilterUITests.swift */,
+				EE98073824AA68E100C76967 /* Info.plist */,
+			);
+			path = InstafilterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE98070D24AA68DC00C76967 /* Instafilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE98073B24AA68E100C76967 /* Build configuration list for PBXNativeTarget "Instafilter" */;
+			buildPhases = (
+				EE98070A24AA68DC00C76967 /* Sources */,
+				EE98070B24AA68DC00C76967 /* Frameworks */,
+				EE98070C24AA68DC00C76967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instafilter;
+			productName = Instafilter;
+			productReference = EE98070E24AA68DC00C76967 /* Instafilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE98072624AA68E100C76967 /* InstafilterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE98073E24AA68E100C76967 /* Build configuration list for PBXNativeTarget "InstafilterTests" */;
+			buildPhases = (
+				EE98072324AA68E100C76967 /* Sources */,
+				EE98072424AA68E100C76967 /* Frameworks */,
+				EE98072524AA68E100C76967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE98072924AA68E100C76967 /* PBXTargetDependency */,
+			);
+			name = InstafilterTests;
+			productName = InstafilterTests;
+			productReference = EE98072724AA68E100C76967 /* InstafilterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE98073124AA68E100C76967 /* InstafilterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE98074124AA68E100C76967 /* Build configuration list for PBXNativeTarget "InstafilterUITests" */;
+			buildPhases = (
+				EE98072E24AA68E100C76967 /* Sources */,
+				EE98072F24AA68E100C76967 /* Frameworks */,
+				EE98073024AA68E100C76967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE98073424AA68E100C76967 /* PBXTargetDependency */,
+			);
+			name = InstafilterUITests;
+			productName = InstafilterUITests;
+			productReference = EE98073224AA68E100C76967 /* InstafilterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE98070624AA68DC00C76967 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Dathan Wong";
+				TargetAttributes = {
+					EE98070D24AA68DC00C76967 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					EE98072624AA68E100C76967 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = EE98070D24AA68DC00C76967;
+					};
+					EE98073124AA68E100C76967 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = EE98070D24AA68DC00C76967;
+					};
+				};
+			};
+			buildConfigurationList = EE98070924AA68DC00C76967 /* Build configuration list for PBXProject "Instafilter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE98070524AA68DC00C76967;
+			productRefGroup = EE98070F24AA68DC00C76967 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE98070D24AA68DC00C76967 /* Instafilter */,
+				EE98072624AA68E100C76967 /* InstafilterTests */,
+				EE98073124AA68E100C76967 /* InstafilterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE98070C24AA68DC00C76967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE98072124AA68E100C76967 /* LaunchScreen.storyboard in Resources */,
+				EE98071E24AA68E100C76967 /* Preview Assets.xcassets in Resources */,
+				EE98071B24AA68E100C76967 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE98072524AA68E100C76967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE98073024AA68E100C76967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE98070A24AA68DC00C76967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE98071724AA68DC00C76967 /* Instafilter.xcdatamodeld in Sources */,
+				EE6DD94F24AD00A200C33A00 /* ImageSaver.swift in Sources */,
+				EE98071224AA68DC00C76967 /* AppDelegate.swift in Sources */,
+				EE98074524AA83CB00C76967 /* ImagePicker.swift in Sources */,
+				EE98071924AA68DC00C76967 /* ContentView.swift in Sources */,
+				EE98071424AA68DC00C76967 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE98072324AA68E100C76967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE98072C24AA68E100C76967 /* InstafilterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE98072E24AA68E100C76967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE98073724AA68E100C76967 /* InstafilterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE98072924AA68E100C76967 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE98070D24AA68DC00C76967 /* Instafilter */;
+			targetProxy = EE98072824AA68E100C76967 /* PBXContainerItemProxy */;
+		};
+		EE98073424AA68E100C76967 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE98070D24AA68DC00C76967 /* Instafilter */;
+			targetProxy = EE98073324AA68E100C76967 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE98071F24AA68E100C76967 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE98072024AA68E100C76967 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE98073924AA68E100C76967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE98073A24AA68E100C76967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE98073C24AA68E100C76967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Instafilter/Preview Content\"";
+				DEVELOPMENT_TEAM = G25YKW6NR4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Instafilter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dathanwong.Instafilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE98073D24AA68E100C76967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Instafilter/Preview Content\"";
+				DEVELOPMENT_TEAM = G25YKW6NR4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Instafilter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dathanwong.Instafilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE98073F24AA68E100C76967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G25YKW6NR4;
+				INFOPLIST_FILE = InstafilterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dathanwong.InstafilterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instafilter.app/Instafilter";
+			};
+			name = Debug;
+		};
+		EE98074024AA68E100C76967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G25YKW6NR4;
+				INFOPLIST_FILE = InstafilterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dathanwong.InstafilterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instafilter.app/Instafilter";
+			};
+			name = Release;
+		};
+		EE98074224AA68E100C76967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G25YKW6NR4;
+				INFOPLIST_FILE = InstafilterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dathanwong.InstafilterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Instafilter;
+			};
+			name = Debug;
+		};
+		EE98074324AA68E100C76967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G25YKW6NR4;
+				INFOPLIST_FILE = InstafilterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dathanwong.InstafilterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Instafilter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE98070924AA68DC00C76967 /* Build configuration list for PBXProject "Instafilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE98073924AA68E100C76967 /* Debug */,
+				EE98073A24AA68E100C76967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE98073B24AA68E100C76967 /* Build configuration list for PBXNativeTarget "Instafilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE98073C24AA68E100C76967 /* Debug */,
+				EE98073D24AA68E100C76967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE98073E24AA68E100C76967 /* Build configuration list for PBXNativeTarget "InstafilterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE98073F24AA68E100C76967 /* Debug */,
+				EE98074024AA68E100C76967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE98074124AA68E100C76967 /* Build configuration list for PBXNativeTarget "InstafilterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE98074224AA68E100C76967 /* Debug */,
+				EE98074324AA68E100C76967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE98071524AA68DC00C76967 /* Instafilter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE98071624AA68DC00C76967 /* Instafilter.xcdatamodel */,
+			);
+			currentVersion = EE98071624AA68DC00C76967 /* Instafilter.xcdatamodel */;
+			path = Instafilter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE98070624AA68DC00C76967 /* Project object */;
+}
